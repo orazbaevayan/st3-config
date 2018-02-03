@@ -1,4 +1,5 @@
 {
+	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Dayle Rees Color Schemes/sublime/slime.tmTheme",
 	"font_face": "Roboto Mono",
 	"font_size": 10,
