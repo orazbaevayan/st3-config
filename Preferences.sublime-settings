@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/Dayle Rees Color Schemes/sublime/slime.tmTheme",
+	"font_face": "Roboto Mono",
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 5,
+	"line_padding_top": 5
+}
