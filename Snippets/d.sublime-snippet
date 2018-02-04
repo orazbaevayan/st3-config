@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+die('<pre>'.print_r(${0}, 1).'</pre>');
+]]></content>
+<tabTrigger>d</tabTrigger>
+<description>Pre print_r and die</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, keyword.control.php</scope>
+</snippet>
