@@ -1,0 +1,21 @@
+<snippet>
+<content><![CDATA[
+$.fn.serializeObject = function(){
+    var obj = {};
+
+    $.each( this.serializeArray(), function(i,o){
+        var n = o.name,
+        v = o.value;
+
+        obj[n] = obj[n] === undefined ? v
+            : $.isArray( obj[n] ) ? obj[n].concat( v )
+            : [ obj[n], v ];
+    });
+
+    return obj;
+};
+]]></content>
+<tabTrigger>sojs</tabTrigger>
+<description>$.fn.serializeObject()</description>
+<scope>source.js, meta.function.declaration.js, support.class.dollar.only.js, punctuation.dollar.js</scope>
+</snippet>

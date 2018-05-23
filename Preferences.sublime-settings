@@ -1,10 +1,12 @@
 {
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Dayle Rees Color Schemes/sublime/slime.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"create_window_at_startup": false,
 	"font_face": "Roboto Mono",
 	"font_size": 10,
 	"ignored_packages":
 	[
+		"BracketHighlighter",
 		"Vintage"
 	],
 	"line_padding_bottom": 5,
