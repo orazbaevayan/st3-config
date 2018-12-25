@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+@include media-breakpoint-up(${1:xs}) {
+
+}
+]]></content>
+<tabTrigger>media-query</tabTrigger>
+<description>Media query</description>
+<scope>source.scss, keyword.control.at-rule.css.sass</scope>
+</snippet>

@@ -2,16 +2,15 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"BracketHighlighter"
 	],
 	"installed_packages":
 	[
 		"A File Icon",
 		"AdvancedNewFile",
-		"BracketHighlighter",
 		"ColorPicker",
 		"Dayle Rees Color Schemes",
 		"Emmet",
+		"Origami",
 		"Package Control",
 		"PHP Companion",
 		"ProjectManager",

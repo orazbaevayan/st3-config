@@ -1,0 +1,32 @@
+<snippet>
+<content><![CDATA[
+	<button type="button" class="btn btn-sm btn-danger" data-toggle="modal" :data-target="'#$1' + product.item.id">
+		2{:Удалить}
+	</button>
+
+	<!-- Modal -->
+	<div class="modal fade" :id="'$1' + product.item.id" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content text-left">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">$(4:Подтверждение}</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					${3:Вы уверены что хотите}
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-danger">2{:Удалить}</button>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Modal -->
+]]></content>
+<tabTrigger>modal-vue</tabTrigger>
+<description>Modal Button Vue</description>
+<scope>text.html.vue</scope>
+</snippet>

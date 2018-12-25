@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+number_format($1, 0, ',', ' ')$2
+]]></content>
+<tabTrigger>priceformat</tabTrigger>
+<description>Formatting price like 12 031 istead 12031</description>
+<scope>embedding.php, text.html.basic, meta.tag.block.any.html, meta.attribute-with-value.class.html, string.quoted.double.html, meta.class-name.html</scope>
+</snippet>

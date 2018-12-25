@@ -1,0 +1,22 @@
+<snippet>
+<content><![CDATA[
+<template>
+
+</template>
+
+<script>
+	export default {
+		mounted() {
+			console.log('vue-template mounted!');
+		}
+	}
+</script>
+
+<style lang="css">
+
+</style>
+]]></content>
+<tabTrigger>vue-template</tabTrigger>
+<description>Vue component template</description>
+<scope>text.html.vue</scope>
+</snippet>
