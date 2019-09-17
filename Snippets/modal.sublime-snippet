@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-<button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#$1">
+<button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#$1" data-backdrop="static" data-keyboard="false">
 	$2
 </button>
 
@@ -10,7 +10,7 @@
 		<div class="modal-content text-left">
 			<div class="modal-header">
 				<h5 class="modal-title" id="exampleModalLabel">${4:Подтверждение}</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<button type="button" class="d-none close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
@@ -18,7 +18,7 @@
 				${3:Вы уверены что хотите}
 			</div>
 			<div class="modal-footer">
-				<button class="btn btn-danger">$2</button>
+				<button class="btn btn-primary">$2</button>
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
 			</div>
 		</div>
@@ -28,5 +28,5 @@
 ]]></content>
 <tabTrigger>modal</tabTrigger>
 <description>Modal button</description>
-<scope>text.html.vue</scope>
+<!-- <scope>text.html.vue, text.blade</scope> -->
 </snippet>

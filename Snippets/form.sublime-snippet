@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+{{ Form::open(['action' => ${2:['$1']},'method' => '${3:POST}']) }}
+<div class="form-group">
+	{{ Form::label('${4:name}', '${5:Имя}') }}
+	{{ Form::text('${4:name}', null, ['class' => 'form-control']) }}
+</div>
+{{ Form::button('${6:Submit}', ['type' => 'submit', 'class' => 'btn btn-primary']) }}
+{{ Form::close() }}
+]]></content>
+<tabTrigger>htmlform</tabTrigger>
+<description>laravelcollective/html form</description>
+<scope>embedding.php, text.html.basic</scope>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+<content><![CDATA[
+<table class="table">
+    <thead>
+        <tr>
+            <th>$1</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>$2</td>
+        </tr>
+    </tbody>
+</table>
+]]></content>
+<tabTrigger>htmltable</tabTrigger>
+<description>Empty html table</description>
+<scope>text.html.vue, meta.tag.inline.table.html, punctuation.definition.tag.begin.html</scope>
+</snippet>
