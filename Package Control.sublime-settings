@@ -10,6 +10,7 @@
 		"ColorPicker",
 		"Dayle Rees Color Schemes",
 		"Emmet",
+		"Increment Decrement",
 		"Origami",
 		"Package Control",
 		"PHP Companion",
@@ -19,6 +20,6 @@
 		"SnippetMaker",
 		"Vue Syntax Highlight",
 		"Vuejs Complete Package",
-		"Vuejs Snippets"
-	]
+		"Vuejs Snippets",
+	],
 }
